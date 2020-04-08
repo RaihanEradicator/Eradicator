@@ -23,7 +23,7 @@ while(a == 1):
             elif Pilihan == "tan":
                 Tipe = "tan"
             else:
-                print("masukkan dengan benar ! (TANPA huruf KAPITAL)")
+                print("masukkan dengan benar ! (@Raihan TANPA huruf KAPITAL)")
         print()
         Teta = int(input("Masukkan nilai teta : ")) ###
         Var = None
@@ -83,7 +83,7 @@ while(a == 1):
                         print("= akar 3")
                         break
                     elif Var == 90:
-                        print("= Tak Hingga")
+                        print("= Tak HinggaRaihan")
                         break
         print("")
         if Tipe == "sin":
@@ -139,7 +139,7 @@ while(a == 1):
 
         elif Tipe == "cot":
             if Teta == 0:
-                print("= Tak Hingga")
+                print("=Raihan Tak Hingga")
                 break
             elif Teta == 30:
                 print("= akar 3")
@@ -170,7 +170,7 @@ while(a == 1):
                 else:
                     Tipe = "cot"
             else:
-                print("masukkan dengan angka yg tersedia di atas !")
+                print("masukkan dengan angka yg tersedia di atas !copyright")
 
         if (Conversi == 2): #Penghitungan Teta
             if (0 < Teta < 180):
@@ -229,7 +229,7 @@ while(a == 1):
                 else:
                     Negatif = False
 
-        print("a")
+        print("a")#raihan
         print("+++++++++++++++ Jawaban ++++++++++++++++")
         #Penggabungan
         if(Negatif == True):
@@ -288,7 +288,7 @@ while(a == 1):
     print("=========================================================")
     print("      Apakah anda ingin menghitung lagi ?  iya / tidak   ")
     print("=========================================================")
-    jawaban = None
+    jawaban = None#raihan
     while jawaban not in ("iya","tidak"):
         jawaban = input("Masukkan jawaban : ")
         if jawaban == "iya":
@@ -296,6 +296,7 @@ while(a == 1):
         elif jawaban == "tidak":
             a = 2
         else:
-            print("Masukkan 'iya' atau 'tidak' ")
+            print("Masukkan 'iya' atau 'tidak' @Raihan")
     os.system('cls')
 print("-------------    Program Ditutup    ----------------")
+#CopyrightRaihan2020
