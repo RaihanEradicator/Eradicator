@@ -5,7 +5,8 @@ b = 1
 while(a == 1):
     while(b == 1):
         print("===================================")
-        print("||    Program Perubahan Sudut    ||")
+        print("||      Program Perbandingan     ||  ")
+        print("||       Pada Sudut Berelasi     ||")
         print("===================================")
         print()
         print("""Masukkan
